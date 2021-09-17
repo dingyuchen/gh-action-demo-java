@@ -20,7 +20,7 @@ public class AppTest {
 
     @Test
     public void isOddTest() {
-        assertFalse(App.isOdd(2));
-        assertTrue(App.isOdd(3));
+        assertTrue(App.isOdd(2));
+        assertFalse(App.isOdd(3));
     }
 }
